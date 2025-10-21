@@ -1,5 +1,5 @@
 import java.util.Scanner;
-cla				break;ss Lab3P1{
+class Lab3P1{
 	public static void main(String...args){
 		Scanner s = new Scanner(System.in);
 		int n = s.nextInt();
@@ -9,13 +9,13 @@ cla				break;ss Lab3P1{
 			
 				if(i == 2)
 			count++;
-			
 			while(j<i){		
 			if(i % j == 0)
 				break;	
 
 			else{count++;
 				j++;
+				 break;
 			}	
 		if(count>0)
 		{
